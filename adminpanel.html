@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+        
+
+    <link rel="stylesheet" href="adminpanel.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo"></div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a> 
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Users</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Game Played</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+           
+        </ul>
+    </div>
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <h2>Dogs Tinder</h2>
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <img src="images/grey bg.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="card--container">
+            <h3 class="main--title">Updated Data</h3>
+            <div class="card--wrapper">
+                <div class="payment--card light-red">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Total no. of users
+                            </span>
+                            <span class="amount-value">5000+</span>
+                        </div>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="payment--card light-purple">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Game Played by users
+                            </span>
+                            <span class="amount-value">6000+</span>
+                        </div>
+                       
+                    <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="payment--card light-green">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">
+                                Total Winners 
+                            </span>
+                            <span class="amount-value">6000+</span>
+                        </div>
+                        <i class="fas fa-trophy"></i>
+                    </div>                  
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tabular--wrapper">
+            <h3 class="main--title">User Details</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.no</th>
+                            <th>Name</th>
+                            <th>E-mail</th>
+                            <th>Password</th>
+                            <th>Contact</th>
+                            <th>City</th>
+                            <th>Action</th>
+
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Anjali Tiwari
+                            </td>
+                            <td>
+                                Anjali@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8787987543
+                            </td>
+                            <td>
+                                Raipur
+
+                            </td>
+                            <td>
+                                <a href="view.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Ayush Tiwari
+                            </td>
+                            <td>
+                                Ayush69@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8787987577
+                            </td>
+                            <td>
+                                Bhopal
+                            </td>
+                            <td>
+                                <a href="view2.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Shreya Yadav
+                            </td>
+                            <td>
+                                Shreyaa6@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8785456543
+                            </td>
+                            <td>
+                                Hyderabad
+                            </td>
+                            <td>
+                                <a href="view3.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Pooja Kumari
+                            </td>
+                            <td>
+                                Pooja22@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8787556565
+                            </td>
+                            <td>
+                            Assam
+                            </td>
+                            <td>
+                                <a href="view4.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Samiksha Singh
+                            </td>
+                            <td>
+                                Samiksha44@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8788787643
+                            </td>
+                            <td>
+                                Chandigarh
+                            </td>
+                            <td>
+                                <a href="view5.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                6
+                            </td>
+                            <td>
+                                Rahul Singh
+                            </td>
+                            <td>
+                                Rahul55@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8787878765
+                            </td>
+                            <td>
+                                Bilaspur
+                            </td>
+                            <td>
+                                <a href="view6.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                7
+                            </td>
+                            <td>
+                                Kritika Kamra
+                            </td>
+                            <td>
+                                Kritika5@gmail.com
+                            </td>
+                            <td>
+                                ********
+                            </td>
+                            <td>
+                            8745687890
+                            </td>
+                            <td>
+                                Gurgaon
+                            </td>
+                            <td>
+                                <a href="view7.html"><i class="fa fa-eye" aria-hidden="true"></i> </a>
+                                <i class="fas fa-edit"></i>
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
